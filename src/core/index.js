@@ -689,9 +689,6 @@ export default class AwesomeSlider extends React.Component {
           this[`box${box}`] = el;
         }}
         className={this.classNames.box}
-        onTouchStart={this.touchStart}
-        onTouchMove={this.touchMove}
-        onTouchEnd={this.touchEnd}
       >
         {this.state[`box${box}`] && (
           <Media
